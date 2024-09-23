@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quick-Answer Pro</title>
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body id="whole-app">
+  <div class="container">
+    <h1>Welcome to Quick Answer Pro</h1>
+
+    <p>Your go-to platform for instant and accurate answers</p>
+
+    <form class="row" id="question-form">
+      <label id="picture-drop" for="loading-input">
+        <input type="file" id="loading-input" />
+        <div id="picture-view">
+          <div class="loader" id="loader"></div>
+          <img src="assets/upload.png" alt="Upload Image" id="uploadIcon">
+          <p id="uploadText">Click or Drag Image Here<br>to upload</p>
+        </div>
+      </label>
+      <button id="submit-button" type="submit" disabled>Get Answer!</button>
+    </form>
+
+    <p id="loading-msg"></p>
+  </div>
+  <script type="module" src="/main.js" defer></script>
+</body>
+
+</html>
