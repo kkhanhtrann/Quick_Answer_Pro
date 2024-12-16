@@ -20,7 +20,6 @@ Make sure you have the following tools installed:
 
 - [Rust](https://www.rust-lang.org/)
 - [Tauri CLI](https://tauri.app/v1/guides/getting-started/prerequisites/)
-- [Node.js](https://nodejs.org/)
 
 ### Installation
 
